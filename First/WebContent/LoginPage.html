@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title bgcolor="white">Login Page</title>
+<link rel="stylesheet" href="Styels.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div id="icon">
+	<img
+		src="http://guitarteacher.com/wp-content/uploads/2017/03/logo260x40.png"
+		alt="Welcome">
+</div>
+<head />
+<title>Login Page</title>
+<head />
+
+<body>
+	<script>
+
+                function Submit() { 
+                var name = document.getElementById("name").value ; 
+                var password = document.getElementById("password").value; 
+                console.log(email);
+                if( name != "" && password != "" ){
+                                window.alert("Good luck To Login to the system !!!!!");
+                        }
+                else 
+                        { 
+                                window.alert("Please Insert Again Your Prsonal Details" ); 
+                        }
+                          
+                }
+        
+</script>
+	<div class="center">
+		<form action="Login" method="GET">
+			<div class="container">
+				<h1 class="h1">Guitar Teacher</h1>
+				<hr>
+				<fieldset>
+					<legend>Personal information:</legend>
+					<label for="name"><b class="h3">Name</b></label> <input type="name"
+						id="name" placeholder="Enter name" name="name" required>
+
+					<label for="password"><b class="h3">Password</b></label> <input type="password" id="password" placeholder="Enter your password"
+						name="password" required> 
+					<div class="h3">
+						<label><input type="checkbox"> Remember me</label>
+					</div>
+					<p class="h3">
+						By creating an account you agree to our <a href="#">Terms &
+							Privacy</a>.
+					</p>
+					<button type="submit" class="registerbtn" onclick="Submit()">Login</button>
+				</fieldset>
+				<hr>
+			</div>
+		</form>
+	</div>
+
+</body>
+
+<div class="footer">
+	<footer>
+
+		<div class="btn-group">
+			<a href="mailto:evi.cohen1@gmail.com" target="_blank"><button>
+					<img src="https://pngimg.com/uploads/email/email_PNG56.png" />
+				</button></a> <a href="https://www.facebook.com/" target="_blank"><button>
+					<img
+						src="http://www.baronita.co.il/vault/icons/blue-facebook-logo.png" />
+				</button></a> <a href="https://www.linkedin.com/in/evi-cohen-55218883/"
+				target="_blank"><button>
+					<img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" />
+				</button></a>
+
+		</div>
+		<div class="tooltip">
+			DESGIN by: Evi Cohen <span class="tooltiptext">The king</span>
+		</div>
+	</footer>
+</div>
+
+</html>

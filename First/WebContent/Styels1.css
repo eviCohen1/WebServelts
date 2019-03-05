@@ -1,0 +1,89 @@
+#p1{ 
+    width: 30%;
+    height: 10px; 
+    background-color: rgb(165, 122, 42);
+    border: 6px;
+    border-color: black
+
+}
+#p1{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(44, 42, 165);
+    border: 6px;
+    border-color: black
+
+}
+#p2{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(42, 165, 159);
+    border: 6px;
+    border-color: black
+}
+#p3{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(87, 165, 42);
+    border: 6px;
+    border-color: black
+}
+#p4{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(165, 42, 89);
+    border: 6px;
+    border-color: black
+}
+#p5{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(165, 97, 42);
+    border: 6px;
+    border-color: black
+}
+#p6{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(42, 106, 165);
+    border: 6px;
+    border-color: black
+}
+#p7{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(165, 116, 42);
+    border: 6px;
+    border-color: black
+}
+#p8{ 
+    width: 30%;
+    height:30px; 
+    background-color: rgb(121, 84, 84);
+    border: 6px;
+    border-color: black
+}
+.padding{ 
+    padding: 5px;
+    text-align: center;
+}
+.NoPadding{ 
+    text-align: center;
+}
+.sizePx
+{
+    font-size: 10px;
+}
+
+.sizePt
+{
+    font-size: 5pt; 
+}
+.sizeEm
+{
+    font-size: 3em; 
+}
+.sizePr
+{
+    font-size: 30%; 
+}

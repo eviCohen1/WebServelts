@@ -1,0 +1,285 @@
+@charset "windows-1255";
+element{
+    color :greenyellow; 
+    font-family:Verdana; 
+}
+p{
+    color:rgb(56, 55, 55);
+}
+body{ 
+  background-image: url("https://previews.123rf.com/images/ronnarong/ronnarong1611/ronnarong161100007/69206777-top-view-of-guitar-on-grunge-background-free-space-for-text.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header { 
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color:DodgerBlue;
+  }
+
+.center{
+    display: block;
+    margin-left: 10%;
+    width:30%;
+    padding: 1%;
+  }
+.w3-container{ 
+    display: block;
+    margin-left: 10%;
+    width:70%;
+    padding: 1.5%;
+  }
+#icon{ 
+  display: block;
+  padding:1.5%;
+  margin-left: 2%;
+  width:50%;
+  }
+  .Guitar-Group { 
+    display: block;
+    padding: 1.5%;
+    margin-left: 15%;
+    width:50%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+.h1{
+    text-align:left; 
+    display: block;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(6, 24, 43);
+    font-size:36px
+  }
+.h2{
+    text-align:left; 
+    display: block;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(6, 24, 43);
+    font-size:24px
+  }
+
+.h3{
+    text-align:left; 
+    display: block;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(6, 24, 43);
+    font-size:20px 
+} 
+.h4{
+        text-align:center; 
+        display: block;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color:rgb(6, 24, 43); 
+        font-size:18px
+}
+.footer {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(35, 44, 56);
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted rgb(165, 168, 135); /* If you want dots under the hoverable text */
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color:rgb(165, 168, 135);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.first_div{ 
+  margin: 5px;
+  float: left;
+  width: 250px;
+} 
+
+.second_div{ 
+  margin: 5px;
+  float: left;
+  width: 250px;
+}
+.third_div{ 
+  margin: 5px;
+  float: left;
+  width: 250px;
+} 
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+ /* Full-width input fields */
+ 
+ input[type = email] {
+  text-align:center;
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background-color: rgb(207, 207, 207);
+  color:rgb(26, 24, 24);
+  border-radius: 6px;
+  box-sizing: border-box
+}
+
+input[type = phone] {
+  text-align:center;
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background-color: rgb(207, 207, 207);
+  color:rgb(26, 24, 24);
+  border-radius: 6px;
+  box-sizing: border-box
+}
+input[type = password ] {
+  text-align:center;
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background-color: rgb(207, 207, 207);
+  color:rgb(26, 24, 24);
+  border-radius: 6px;
+  box-sizing: border-box
+}
+
+input[type=name]{
+  text-align:center;
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background-color: rgb(207, 207, 207);
+  color:rgb(26, 24, 24);
+  border-radius: 6px;
+  box-sizing: border-box
+}
+
+input[type=email]:focus, input[type=name]:focus ,input[type=phone]{
+  text-align:center;
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid rgb(226, 183, 65);
+  margin-bottom: 50px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  text-align:center;
+  background-color: rgb(226, 183, 65);
+  color: white;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+  padding: 15px 22px;
+  margin: 8px 0;
+  border-radius: 10px;
+ 
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/*footer group*/
+  .btn-group button {
+     background-color:rgb(85, 80, 57); 
+     border: 1px solid rgb(201, 197, 178); 
+    /* color: rgb(17, 17, 17); White text */
+    padding: 10px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: CENTER; /* Float the buttons side by side */
+    opacity: 0.85;
+    text-align: center;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right:none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: rgb(243, 205, 123);
+  }
+  img[src="https://pngimg.com/uploads/email/email_PNG56.png"] {
+    border-radius: 6px;
+    padding: 5px;
+    width: 45px;
+     }
+     img[src="http://www.baronita.co.il/vault/icons/blue-facebook-logo.png"] {
+      border-radius: 6px;
+      padding: 5px;
+      width: 45px;
+       }
+       img[src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png"] {
+        border-radius: 6px;
+        padding: 5px;
+        width: 45px;
+         }
